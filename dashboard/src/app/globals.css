@@ -20,7 +20,7 @@
 
 @layer base {
     body {
-        @apply bg-[#020203] text-[#f4f4f5] font-sans selection:bg-red-500/40 overflow-hidden antialiased;
+        @apply bg-[#020203] text-[#f4f4f5] font-sans selection:bg-red-500/40 overflow-auto antialiased;
         background-image:
             radial-gradient(circle at 50% -20%, rgba(229, 9, 20, 0.12) 0%, transparent 40%),
             radial-gradient(circle at 0% 0%, rgba(0, 242, 255, 0.05) 0%, transparent 30%),
